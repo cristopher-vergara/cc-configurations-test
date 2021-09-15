@@ -1,0 +1,10 @@
+my:
+  property:
+    QR_PATH: "/opt/docker/images/"
+    ENDPOINT_API_HASH: "https://qa.decidir.com/api/transactor/payments/qr/%s/hashes"
+    APIKEY_API_HASH: "4fe60959dbc5415e8a50f141ea05d6d8"
+    errors:
+      REST:
+        invalid_body: "Error interno"
+server:
+  port: 8095
